@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "820393862865",
+    "firebase_url": "https://mundo-7bfdf.firebaseio.com",
+    "project_id": "mundo-7bfdf",
+    "storage_bucket": "mundo-7bfdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820393862865:android:2a2ec65dd8ae8c69",
+        "android_client_info": {
+          "package_name": "com.github.benway0.mundo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820393862865-l2rhdm908rk26k3rp10tehokdmhuiuvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw7AmU9CbGQlPC3CM6Tk8pYylmHc36Vmc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

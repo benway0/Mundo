@@ -1,0 +1,303 @@
+<resources>
+    <!-- About Dialog -->
+    <string name="about_title">About Mundo</string>
+    <string name="version_number">Version 1.0.0</string>
+    <string name="created_by">Created by Leviathan Software</string>
+    <string name="contact_me">Contact: davidstraw92@gmail.com</string>
+
+    <!-- App information -->
+    <string name="app_name">Mundo</string>
+
+    <!-- Content authority -->
+    <string name="content_authority">com.github.benway0.mundo</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_country_flag">Country Flag</string>
+    <string name="cd_drawer_icon">Drawer Icon</string>
+    <string name="cd_news_icon">News Provider Icon</string>
+    <string name="cd_news_thumbnail">News Article Thumbnail</string>
+
+    <!-- Countries -->
+    <string name="country_angola">Angola</string>
+    <string name="country_australia">Australia</string>
+    <string name="country_canada">Canada</string>
+    <string name="country_china">China</string>
+    <string name="country_colombia">Colombia</string>
+    <string name="country_denmark">Denmark</string>
+    <string name="country_france">France</string>
+    <string name="country_germany">Germany</string>
+    <string name="country_india">India</string>
+    <string name="country_iran">Iran</string>
+    <string name="country_ireland">Ireland</string>
+    <string name="country_israel">Israel</string>
+    <string name="country_japan">Japan</string>
+    <string name="country_kenya">Kenya</string>
+    <string name="country_newzealand">New Zealand</string>
+    <string name="country_nigeria">Nigeria</string>
+    <string name="country_philippines">Philippines</string>
+    <string name="country_poland">Poland</string>
+    <string name="country_qatar">Qatar</string>
+    <string name="country_russia">Russia</string>
+    <string name="country_saudiarabia">Saudi Arabia</string>
+    <string name="country_singapore">Singapore</string>
+    <string name="country_southafrica">South Africa</string>
+    <string name="country_southkorea">South Korea</string>
+    <string name="country_syria">Syria</string>
+    <string name="country_turkey">Turkey</string>
+    <string name="country_uae">UAE</string>
+    <string name="country_ukraine">Ukraine</string>
+    <string name="country_unitedkingdom">United Kingdom</string>
+    <string name="country_uruguay">Uruguay</string>
+    <string name="country_usa">USA</string>
+    <string name="country_zimbabwe">Zimbabwe</string>
+
+    <!-- Country codes -->
+    <string name="country_code_china" translatable="false">cn</string>
+
+    <!-- Dates -->
+    <string name="just_now">Just Now</string>
+    <string name="days_ago">days ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="min_ago">min ago</string>
+    <string name="hour_ago">hour ago</string>
+    <string name="day_ago">day ago</string>
+
+    <!-- Drawer Items -->
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string name="drawer_item_my_feed">My Feed</string>
+    <string name="drawer_item_browse_by_country">Browse by Country</string>
+    <string name="drawer_item_bookmarks">Bookmarks</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_about">About</string>
+
+    <!-- Font Dialog -->
+    <string name="font_dialog_title">Change Font Size</string>
+    <string name="font_dialog_button">OK</string>
+
+    <!-- Menu Items -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_search">Search</string>
+    <string name="action_bookmark">Bookmark</string>
+    <string name="action_clear_bookmarks">Clear Bookmarks</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">Mundo</string>
+    <string name="notification_body">Your news feed has been successfully synced.</string>
+
+    <!-- Placeholder text -->
+    <string name="nothing_to_display">Nothing to display.</string>
+    <string name="add_more_sources">You can add more sources to your feed by going to Settings > Edit Favorite Sources.</string>
+    <string name="no_bookmarks">No bookmarks saved.</string>
+
+    <string name="country_news">News</string>
+    <string name="problem_loading_article">Problem loading the article.</string>
+
+    <string name="go_to_website">Read article on original website</string>
+
+    <!-- Preference Keys -->
+    <string name="pref_key_sources_category" translatable="false">pref_key_sources_category</string>
+
+    <string name="pref_key_sources_screen" translatable="false">pref_key_sources_screen</string>
+
+    <string name="pref_key_abc" translatable="false">pref_key_abc</string>
+    <string name="pref_key_aljazeera" translatable="false">pref_key_aljazeera</string>
+    <string name="pref_key_angop" translatable="false">pref_key_angop</string>
+    <string name="pref_key_arabnews" translatable="false">pref_key_arabnews</string>
+    <string name="pref_key_bbc" translatable="false">pref_key_bbc</string>
+    <string name="pref_key_bianet" translatable="false">pref_key_bianet</string>
+    <string name="pref_key_bulawayo" translatable="false">pref_key_bulawayo</string>
+    <string name="pref_key_breitbart" translatable="false">pref_key_breitbart</string>
+    <string name="pref_key_colombiareports" translatable="false">pref_key_colombiareports</string>
+    <string name="pref_key_copenhagenpost" translatable="false">pref_key_copenhagenpost</string>
+    <string name="pref_key_dailynation" translatable="false">pref_key_dailynation</string>
+    <string name="pref_key_dailysabah" translatable="false">pref_key_dailysabah</string>
+    <string name="pref_key_france24" translatable="false">pref_key_france24</string>
+    <string name="pref_key_globalnews" translatable="false">pref_key_globalnews</string>
+    <string name="pref_key_hindustantimes" translatable="false">pref_key_hindustantimes</string>
+    <string name="pref_key_hurriyet" translatable="false">pref_key_hurriyet</string>
+    <string name="pref_key_independent" translatable="false">pref_key_independent</string>
+    <string name="pref_key_inquirer" translatable="false">pref_key_inquirer</string>
+    <string name="pref_key_irishtimes" translatable="false">pref_key_irishtimes</string>
+    <string name="pref_key_japantoday" translatable="false">pref_key_japantoday</string>
+    <string name="pref_key_jerusalempost" translatable="false">pref_key_jerusalempost</string>
+    <string name="pref_key_khaleejtimes" translatable="false">pref_key_khaleejtimes</string>
+    <string name="pref_key_koreaherald" translatable="false">pref_key_koreaherald</string>
+    <string name="pref_key_kyivpost" translatable="false">pref_key_kyivpost</string>
+    <string name="pref_key_mercopress" translatable="false">pref_key_mercopress</string>
+    <string name="pref_key_nationalaccord" translatable="false">pref_key_nationalaccord</string>
+    <string name="pref_key_news24" translatable="false">pref_key_news24</string>
+    <string name="pref_key_nypost" translatable="false">pref_key_nypost</string>
+    <string name="pref_key_nytimes" translatable="false">pref_key_nytimes</string>
+    <string name="pref_key_nzherald" translatable="false">pref_key_nzherald</string>
+    <string name="pref_key_peoplesdaily" translatable="false">pref_key_peoplesdaily</string>
+    <string name="pref_key_pravda" translatable="false">pref_key_pravda</string>
+    <string name="pref_key_presstv" translatable="false">pref_key_presstv</string>
+    <string name="pref_key_radiopoland" translatable="false">pref_key_radiopoland</string>
+    <string name="pref_key_reuters" translatable="false">pref_key_reuters</string>
+    <string name="pref_key_rt" translatable="false">pref_key_rt</string>
+    <string name="pref_key_rte" translatable="false">pref_key_rte</string>
+    <string name="pref_key_sana" translatable="false">pref_key_sana</string>
+    <string name="pref_key_shanghaidaily" translatable="false">pref_key_shanghaidaily</string>
+    <string name="pref_key_skynews" translatable="false">pref_key_skynews</string>
+    <string name="pref_key_spiegel" translatable="false">pref_key_spiegel</string>
+    <string name="pref_key_sputnik" translatable="false">pref_key_sputnik</string>
+    <string name="pref_key_straitstimes" translatable="false">pref_key_straitstimes</string>
+    <string name="pref_key_tehrantimes" translatable="false">pref_key_tehrantimes</string>
+    <string name="pref_key_telegraph" translatable="false">pref_key_telegraph</string>
+    <string name="pref_key_theguardian" translatable="false">pref_key_theguardian</string>
+    <string name="pref_key_timesofisrael" translatable="false">pref_key_timesofisrael</string>
+    <string name="pref_key_unian" translatable="false">pref_key_unian</string>
+    <string name="pref_key_washingtontimes" translatable="false">pref_key_washingtontimes</string>
+
+    <string name="pref_key_show_articles_from" translatable="false">pref_key_show_articles_from</string>
+
+    <string name="pref_key_sync_category" translatable="false">pref_key_sync_category</string>
+
+    <string name="pref_key_automatic_sync" translatable="false">pref_key_automatic_sync</string>
+
+    <string name="pref_key_hourly_sync" translatable="false">pref_key_hourly_sync</string>
+
+    <string name="pref_key_notifications_category" translatable="false">pref_key_notifications_category</string>
+
+    <string name="pref_key_notifications" translatable="false">pref_key_notifications</string>
+
+    <string name="pref_key_appearance_category" translatable="false">pref_key_appearance_category</string>
+
+    <string name="pref_key_display_images" translatable="false">pref_key_display_images</string>
+
+    <string name="pref_key_is_first_time" translatable="false">pref_key_is_first_time</string>
+
+    <!-- Preference Titles -->
+    <string name="pref_title_sources_category">Feed</string>
+
+    <string name="pref_title_sources_screen">Edit Favorite Sources</string>
+
+    <string name="pref_title_abc">ABC.net.au</string>
+    <string name="pref_title_aljazeera">Al Jazeera</string>
+    <string name="pref_title_angop">ANGOP</string>
+    <string name="pref_title_arabnews">Arab News</string>
+    <string name="pref_title_bbc">BBC</string>
+    <string name="pref_title_bianet">Bianet</string>
+    <string name="pref_title_breitbart">Breitbart</string>
+    <string name="pref_title_bulawayo">Bulawayo</string>
+    <string name="pref_title_colombiareports">Colombia Reports</string>
+    <string name="pref_title_copenhagenpost">Copenhagen Post</string>
+    <string name="pref_title_dailynation">Daily Nation</string>
+    <string name="pref_title_dailysabah">Daily Sabah</string>
+    <string name="pref_title_france24">France 24</string>
+    <string name="pref_title_globalnews">Global News</string>
+    <string name="pref_title_hindustantimes">Hindustan Times</string>
+    <string name="pref_title_hurriyet">Hurriyet</string>
+    <string name="pref_title_independent">Independent</string>
+    <string name="pref_title_inquirer">Inquirer</string>
+    <string name="pref_title_irishtimes">Irish Times</string>
+    <string name="pref_title_japantoday">Japan Today</string>
+    <string name="pref_title_jerusalempost">Jerusalem Post</string>
+    <string name="pref_title_khaleejtimes">Khaleej Times</string>
+    <string name="pref_title_koreaherald">Korea Herald</string>
+    <string name="pref_title_kyivpost">Kyiv Post</string>
+    <string name="pref_title_mercopress">MercoPress</string>
+    <string name="pref_title_nationalaccord">National Accord</string>
+    <string name="pref_title_news24">News 24</string>
+    <string name="pref_title_nypost">NY Post</string>
+    <string name="pref_title_nytimes">NY Times</string>
+    <string name="pref_title_nzherald">NZ Herald</string>
+    <string name="pref_title_peoplesdaily">People\'s Daily</string>
+    <string name="pref_title_pravda">Pravda</string>
+    <string name="pref_title_presstv">PressTV</string>
+    <string name="pref_title_radiopoland">Radio Poland</string>
+    <string name="pref_title_reuters">Reuters</string>
+    <string name="pref_title_rt">RT</string>
+    <string name="pref_title_rte">RTE</string>
+    <string name="pref_title_sana">Syrian Arab News Agency</string>
+    <string name="pref_title_shanghaidaily">Shanghai Daily</string>
+    <string name="pref_title_skynews">Sky News</string>
+    <string name="pref_title_spiegel">Spiegel</string>
+    <string name="pref_title_sputnik">Sputnik</string>
+    <string name="pref_title_straitstimes">Straits Times</string>
+    <string name="pref_title_tehrantimes">Tehran Times</string>
+    <string name="pref_title_telegraph">Telegraph</string>
+    <string name="pref_title_theguardian">The Guardian</string>
+    <string name="pref_title_timesofisrael">Times of Israel</string>
+    <string name="pref_title_unian">Unian</string>
+    <string name="pref_title_washingtontimes">Washington Times</string>
+
+    <string name="pref_title_show_articles_from">Show Articles From</string>
+    <string name="pref_title_show_articles_from_30min">30 min ago</string>
+    <string name="pref_title_show_articles_from_1hour">1 hour ago</string>
+    <string name="pref_title_show_articles_from_2hours">2 hours ago</string>
+    <string name="pref_title_show_articles_from_3hours">3 hours ago</string>
+    <string name="pref_title_show_articles_from_6hours">6 hours ago</string>
+    <string name="pref_title_show_articles_from_12hours">12 hours ago</string>
+    <string name="pref_title_show_articles_from_1day">1 day ago</string>
+    <string name="pref_title_show_articles_from_30min_value">30</string>
+    <string name="pref_title_show_articles_from_1hour_value">60</string>
+    <string name="pref_title_show_articles_from_2hours_value">120</string>
+    <string name="pref_title_show_articles_from_3hours_value">180</string>
+    <string name="pref_title_show_articles_from_6hours_value">360</string>
+    <string name="pref_title_show_articles_from_12hours_value">720</string>
+    <string name="pref_title_show_articles_from_1day_value">1440</string>
+
+
+    <string name="pref_title_sync_category">Sync</string>
+
+    <string name="pref_title_automatic_sync">Automatic Sync</string>
+    <string name="pref_title_automatic_sync_on">On</string>
+    <string name="pref_title_automatic_sync_off">Off</string>
+    <string name="pref_title_automatic_sync_wifi">WiFi Only</string>
+    <string name="pref_title_automatic_sync_on_value" translatable="false">on</string>
+    <string name="pref_title_automatic_sync_off_value" translatable="false">off</string>
+    <string name="pref_title_automatic_sync_wifi_value" translatable="false">wifi</string>
+
+    <string name="pref_title_hourly_sync">Hours Between Sync</string>
+    <string name="pref_title_hourly_sync_30min">30 minutes</string>
+    <string name="pref_title_hourly_sync_1hour">1 hour</string>
+    <string name="pref_title_hourly_sync_2hours">2 hours</string>
+    <string name="pref_title_hourly_sync_3hours">3 hours</string>
+    <string name="pref_title_hourly_sync_6hours">6 hours</string>
+    <string name="pref_title_hourly_sync_12hours">12 hours</string>
+    <string name="pref_title_hourly_sync_1day">1 day</string>
+    <string name="pref_title_hourly_sync_30min_value" translatable="false">30</string>
+    <string name="pref_title_hourly_sync_1hour_value" translatable="false">60</string>
+    <string name="pref_title_hourly_sync_2hours_value" translatable="false">120</string>
+    <string name="pref_title_hourly_sync_3hours_value" translatable="false">180</string>
+    <string name="pref_title_hourly_sync_6hours_value" translatable="false">360</string>
+    <string name="pref_title_hourly_sync_12hours_value" translatable="false">720</string>
+    <string name="pref_title_hourly_sync_1day_value" translatable="false">1440</string>
+
+    <string name="pref_title_notifications_category">Notifications</string>
+
+    <string name="pref_title_notifications">Notifications</string>
+
+    <string name="pref_title_appearance_category">Appearance</string>
+
+    <string name="pref_title_display_images">Display Images/Videos</string>
+    <string name="pref_title_display_images_on">On</string>
+    <string name="pref_title_display_images_off">Off</string>
+    <string name="pref_title_display_images_wifi">WiFi Only</string>
+    <string name="pref_title_display_images_on_value">on</string>
+    <string name="pref_title_display_images_off_value">off</string>
+    <string name="pref_title_display_images_wifi_value">wifi</string>
+
+    <!-- Sharing -->
+    <string name="share_to">Share to...</string>
+
+    <!-- Toasts -->
+    <string name="toast_bookmark_added">Bookmark successfully added.</string>
+    <string name="toast_bookmark_deleted">Bookmark successfully deleted.</string>
+
+    <!-- Toolbar Titles -->
+    <string name="title_my_feed">My Feed</string>
+    <string name="title_browse_by_country">Browse by Country</string>
+    <string name="title_bookmarks">Bookmarks</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_article">Article</string>
+
+    <!-- Welcome Dialog -->
+    <string name="welcome_title">Welcome To Mundo</string>
+    <string name="welcome_text">Go to Settings > Edit Favorite Sources to add news sources to your feed, or browse by country.</string>
+    <string name="welcome_ok">OK</string>
+</resources>

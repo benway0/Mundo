@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "954258179147",
+    "firebase_url": "https://altmediahub-5abc6.firebaseio.com",
+    "project_id": "altmediahub-5abc6",
+    "storage_bucket": "altmediahub-5abc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954258179147:android:3ca145222acaf395",
+        "android_client_info": {
+          "package_name": "com.github.benway0.altmediahu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954258179147-h3sa29e5ic1m16p37f4kiu8ohhbg4bsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEIiYYWcG62XU9n4aK_rGUu9zMbOaMZxg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

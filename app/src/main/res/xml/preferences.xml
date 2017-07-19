@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="@string/pref_key_sources_category"
+        android:title="@string/pref_title_sources_category">
+
+        <PreferenceScreen
+            android:key="@string/pref_key_sources_screen"
+            android:persistent="false"
+            android:title="@string/pref_title_sources_screen">
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_abc"
+                android:title="@string/pref_title_abc" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_aljazeera"
+                android:title="@string/pref_title_aljazeera" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_angop"
+                android:title="@string/pref_title_angop" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_arabnews"
+                android:title="@string/pref_title_arabnews" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_bbc"
+                android:title="@string/pref_title_bbc" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_bianet"
+                android:title="@string/pref_title_bianet" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_bulawayo"
+                android:title="@string/pref_title_bulawayo" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_breitbart"
+                android:title="@string/pref_title_breitbart" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_colombiareports"
+                android:title="@string/pref_title_colombiareports" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_copenhagenpost"
+                android:title="@string/pref_title_copenhagenpost" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_dailynation"
+                android:title="@string/pref_title_dailynation" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_dailysabah"
+                android:title="@string/pref_title_dailysabah" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_france24"
+                android:title="@string/pref_title_france24" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_globalnews"
+                android:title="@string/pref_title_globalnews" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_hindustantimes"
+                android:title="@string/pref_title_hindustantimes" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_hurriyet"
+                android:title="@string/pref_title_hurriyet" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_independent"
+                android:title="@string/pref_title_independent" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_inquirer"
+                android:title="@string/pref_title_inquirer" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_irishtimes"
+                android:title="@string/pref_title_irishtimes" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_japantoday"
+                android:title="@string/pref_title_japantoday" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_jerusalempost"
+                android:title="@string/pref_title_jerusalempost" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_khaleejtimes"
+                android:title="@string/pref_title_khaleejtimes" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_koreaherald"
+                android:title="@string/pref_title_koreaherald" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_mercopress"
+                android:title="@string/pref_title_mercopress" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_nationalaccord"
+                android:title="@string/pref_title_nationalaccord" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_news24"
+                android:title="@string/pref_title_news24" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_nypost"
+                android:title="@string/pref_title_nypost" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_nytimes"
+                android:title="@string/pref_title_nytimes" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_nzherald"
+                android:title="@string/pref_title_nzherald" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_peoplesdaily"
+                android:title="@string/pref_title_peoplesdaily" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_pravda"
+                android:title="@string/pref_title_pravda" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_presstv"
+                android:title="@string/pref_title_presstv" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_radiopoland"
+                android:title="@string/pref_title_radiopoland" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_reuters"
+                android:title="@string/pref_title_reuters" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_rt"
+                android:title="@string/pref_title_rt" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_rte"
+                android:title="@string/pref_title_rte" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_sana"
+                android:title="@string/pref_title_sana" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_shanghaidaily"
+                android:title="@string/pref_title_shanghaidaily" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_skynews"
+                android:title="@string/pref_title_skynews" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_spiegel"
+                android:title="@string/pref_title_spiegel" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_sputnik"
+                android:title="@string/pref_title_sputnik" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_straitstimes"
+                android:title="@string/pref_title_straitstimes" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_tehrantimes"
+                android:title="@string/pref_title_tehrantimes" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_telegraph"
+                android:title="@string/pref_title_telegraph" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_theguardian"
+                android:title="@string/pref_title_theguardian" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_timesofisrael"
+                android:title="@string/pref_title_timesofisrael" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_unian"
+                android:title="@string/pref_title_unian" />
+
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="@string/pref_key_washingtontimes"
+                android:title="@string/pref_title_washingtontimes" />
+
+        </PreferenceScreen>
+
+        <ListPreference
+            android:defaultValue="@string/pref_title_show_articles_from_12hours_value"
+            android:entries="@array/pref_show_articles_from"
+            android:entryValues="@array/pref_show_articles_from_values"
+            android:key="@string/pref_key_show_articles_from"
+            android:summary="%s"
+            android:title="@string/pref_title_show_articles_from" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_key_sync_category"
+        android:title="@string/pref_title_sync_category">
+
+        <ListPreference
+            android:defaultValue="@string/pref_title_automatic_sync_on_value"
+            android:entries="@array/pref_automatic_sync"
+            android:entryValues="@array/pref_automatic_sync_values"
+            android:key="@string/pref_key_automatic_sync"
+            android:summary="%s"
+            android:title="@string/pref_title_automatic_sync" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_title_hourly_sync_12hours_value"
+            android:entries="@array/pref_hourly_sync"
+            android:entryValues="@array/pref_hourly_sync_values"
+            android:key="@string/pref_key_hourly_sync"
+            android:summary="%s"
+            android:title="@string/pref_title_hourly_sync" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_key_notifications_category"
+        android:title="@string/pref_title_notifications_category">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_key_notifications"
+            android:title="@string/pref_title_notifications" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_key_appearance_category"
+        android:title="@string/pref_title_appearance_category">
+
+        <ListPreference
+            android:defaultValue="@string/pref_title_display_images_on_value"
+            android:entries="@array/pref_display_images"
+            android:entryValues="@array/pref_display_images_values"
+            android:key="@string/pref_key_display_images"
+            android:summary="%s"
+            android:title="@string/pref_title_display_images" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

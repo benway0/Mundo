@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout_article_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorNewsBackground">
+
+
+        <ScrollView
+            android:id="@+id/news_article_scroller"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
+
+            <WebView
+                android:id="@+id/article_web_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+        </ScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            fab:fab_addButtonColorNormal="@color/colorPrimary"
+            fab:fab_addButtonColorPressed="@color/colorPrimaryLight"
+            fab:fab_addButtonPlusIconColor="@color/white">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floating_action_font_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorNormal="@color/white_pressed"
+                fab:fab_colorPressed="@color/colorSecondaryLight"
+                fab:fab_icon="@drawable/ic_action_font_bigger"
+                fab:fab_size="mini"
+                fab:fab_title="Change Font Size" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floating_action_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorNormal="@color/white_pressed"
+                fab:fab_colorPressed="@color/colorSecondaryLight"
+                fab:fab_icon="@drawable/ic_action_share"
+                fab:fab_size="mini"
+                fab:fab_title="Share" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floating_action_bookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorNormal="@color/white_pressed"
+                fab:fab_colorPressed="@color/colorSecondaryLight"
+                fab:fab_icon="@drawable/ic_action_star_0"
+                fab:fab_size="mini"
+                fab:fab_title="Bookmark" />
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

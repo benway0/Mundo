@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_refresh_layout_country_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <com.github.benway0.mundo.views.AutofitRecyclerView
+
+            android:clipToPadding="false"
+            android:columnWidth="@dimen/card_column_width"
+            android:id="@+id/auto_fit_recycler_view_country_fragment"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:padding="@dimen/item_margin" />
+
+        <TextView
+            android:id="@+id/country_fragment_nothingtoload"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:paddingTop="48dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/nothing_to_display"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_automatic_sync">
+        <item>@string/pref_title_automatic_sync_on</item>
+        <item>@string/pref_title_automatic_sync_off</item>
+        <item>@string/pref_title_automatic_sync_wifi</item>
+    </string-array>
+
+    <string-array name="pref_automatic_sync_values">
+        <item>@string/pref_title_automatic_sync_on_value</item>
+        <item>@string/pref_title_automatic_sync_off_value</item>
+        <item>@string/pref_title_automatic_sync_wifi_value</item>
+
+    </string-array>
+
+    <string-array name="pref_hourly_sync">
+        <item>@string/pref_title_hourly_sync_30min</item>
+        <item>@string/pref_title_hourly_sync_1hour</item>
+        <item>@string/pref_title_hourly_sync_2hours</item>
+        <item>@string/pref_title_hourly_sync_3hours</item>
+        <item>@string/pref_title_hourly_sync_6hours</item>
+        <item>@string/pref_title_hourly_sync_12hours</item>
+        <item>@string/pref_title_hourly_sync_1day</item>
+    </string-array>
+
+    <string-array name="pref_hourly_sync_values">
+        <item>@string/pref_title_hourly_sync_30min_value</item>
+        <item>@string/pref_title_hourly_sync_1hour_value</item>
+        <item>@string/pref_title_hourly_sync_2hours_value</item>
+        <item>@string/pref_title_hourly_sync_3hours_value</item>
+        <item>@string/pref_title_hourly_sync_6hours_value</item>
+        <item>@string/pref_title_hourly_sync_12hours_value</item>
+        <item>@string/pref_title_hourly_sync_1day_value</item>
+
+    </string-array>
+
+    <string-array name="pref_display_images">
+        <item>@string/pref_title_display_images_on</item>
+        <item>@string/pref_title_display_images_off</item>
+        <item>@string/pref_title_display_images_wifi</item>
+    </string-array>
+
+    <string-array name="pref_display_images_values">
+        <item>@string/pref_title_display_images_on_value</item>
+        <item>@string/pref_title_display_images_off_value</item>
+        <item>@string/pref_title_display_images_wifi_value</item>
+    </string-array>
+
+    <string-array name="pref_show_articles_from">
+        <item>@string/pref_title_show_articles_from_30min</item>
+        <item>@string/pref_title_show_articles_from_1hour</item>
+        <item>@string/pref_title_show_articles_from_2hours</item>
+        <item>@string/pref_title_show_articles_from_3hours</item>
+        <item>@string/pref_title_show_articles_from_6hours</item>
+        <item>@string/pref_title_show_articles_from_12hours</item>
+        <item>@string/pref_title_show_articles_from_1day</item>
+    </string-array>
+
+    <string-array name="pref_show_articles_from_values">
+        <item>@string/pref_title_show_articles_from_30min_value</item>
+        <item>@string/pref_title_show_articles_from_1hour_value</item>
+        <item>@string/pref_title_show_articles_from_2hours_value</item>
+        <item>@string/pref_title_show_articles_from_3hours_value</item>
+        <item>@string/pref_title_show_articles_from_6hours_value</item>
+        <item>@string/pref_title_show_articles_from_12hours_value</item>
+        <item>@string/pref_title_show_articles_from_1day_value</item>
+    </string-array>
+
+</resources>
