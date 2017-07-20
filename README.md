@@ -2,6 +2,7 @@
 
 # Mundo
 Fast and lightweight Android news reader app featuring customisable feeds, search function and offline reading.
+
 Store: https://play.google.com/store/apps/details?id=com.github.benway0.mundo
 
 # Screenshots
