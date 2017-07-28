@@ -13,9 +13,13 @@ Fast and lightweight Android news reader app featuring customisable feeds, searc
 
 # Libraries
 [Picasso](https://square.github.io/picasso/) - Image downloading and caching
+
 [Jsoup](https://jsoup.org/) - HTML parsing
+
 [Google Firebase](http://firebase.google.com/) - App infrastructure
+
 [FloatingActionButton by futuresimple](https://github.com/futuresimple/android-floating-action-button) - Expanding FAB
+
 
 
 # License
