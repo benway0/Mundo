@@ -217,7 +217,7 @@ public class NewsProvider extends ContentProvider {
                     _id = database.insert(DatabaseContract.BookmarksEntry.TABLE_NAME, null, values);
                     database.setTransactionSuccessful();
                 } finally {
-                    database.endTransaction();;
+                    database.endTransaction();
                 }
                 break;
         }
